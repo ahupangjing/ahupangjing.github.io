@@ -28,8 +28,8 @@ sorted排序，是临时排序，并不影响原始的显示结果
 列表可以看作C语言中的数组，做列表的操作与对数组的操作完全一致
 
 ##### 列表解析
->`numbers=[value**3 for value in range(1,11)]`<br>
->`print(numbers)`
+> `numbers=[value**3 for value in range(1,11)]`<br>
+> `print(numbers)`
 ##### 非列表解析
 >`numbers1=[]`<br>
 >`for num in range(1,11):`<br>
