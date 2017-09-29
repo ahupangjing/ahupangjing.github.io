@@ -39,13 +39,13 @@ for num in range(1,11):
 
 ##### 复制列表
 
-`>>> squares_b=squares  #这种直接赋值只是将squares_b指向square的内存地址。并没有真正分配内存空间，所以在修改任何一个会导致另一个的改变
->>> print(squares_b)
-[1, 4, 9, 16, 25, 36, 49, 64, 81]
->>> print(squares)
-[1, 4, 9, 16, 25, 36, 49, 64, 81]
->>> squares_b.append('a')
->>> print(squares)
+`>>> squares_b=squares  #这种直接赋值只是将squares_b指向square的内存地址。并没有真正分配内存空间，所以在修改任何一个会导致另一个的改变`
+`>>> print(squares_b)`
+`[1, 4, 9, 16, 25, 36, 49, 64, 81]`
+`>>> print(squares)`
+`[1, 4, 9, 16, 25, 36, 49, 64, 81]`
+`>>> squares_b.append('a')`
+`>>> print(squares)
 [1, 4, 9, 16, 25, 36, 49, 64, 81, 'a']
 >>> print(squares_b)
 [1, 4, 9, 16, 25, 36, 49, 64, 81, 'a'] #所以导致表象上看修改他们之中的任何一个，另外一个也会被改变
